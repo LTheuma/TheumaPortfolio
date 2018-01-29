@@ -1,0 +1,104 @@
+header, #intro, body, footer {
+    font-family: 'Work Sans', sans-serif;
+    font-family: Helvetica; 
+}
+
+/* wraps everything together (wrapper, footer, main ) */ 
+
+.wrapper {
+    height: 100%; 
+    display: flex; 
+    flex-direction: column;
+    background-color: ghostwhite;
+}
+
+footer {
+    height: 30px;
+    padding: 14px 16px;
+}
+
+main{
+    flex: 1;
+}
+
+/* menu clean up */
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu {
+    background-color: black;
+    overflow: hidden;
+}
+
+/* Menu design */
+
+.menu a{
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 2em;
+}
+
+/* Menu hover behavior */
+
+.menu a:hover {
+    background-color: skyblue;
+    color: black;
+}
+
+/* Adds a color to the active link */
+
+.menu a.active{
+    background-color: black;
+    color: deepskyblue;
+}
+
+/* styles the search bar */ 
+
+.menu input[type="text"] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+    background-color: mintcream;
+    
+}
+
+/* styles the header */
+
+header {
+    text-align: center;
+    font-weight: bold;
+    font-size: 5em; 
+    background-color: #4da6ff;
+}
+
+/* styles welcome message */
+
+#intro {
+    font-style: italic;
+    text-align: center;
+}
+
+/* style portrait of me in "Home" */
+
+#me {
+    height: 30em;
+    width: 25em;
+}
+
+/* style social media logos in footer */
+
+#facebooklogo, #twitterlogo, #linkedinlogo, #githublogo {
+    height: 2em;
+    width: 2em;
+}
