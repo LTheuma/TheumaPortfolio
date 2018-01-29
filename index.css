@@ -1,4 +1,4 @@
-header, #intro, body, footer {
+header, #introright, #introleft, body, footer {
     font-family: 'Work Sans', sans-serif;
     font-family: Helvetica; 
 }
@@ -84,16 +84,39 @@ header {
 
 /* styles welcome message */
 
-#intro {
+
+#mainparent {
+    margin: 0 auto;
+    width: 100%; 
+    height: 200px;
+    display: inline-flex;
+}
+
+#introrighttext, #introlefttext {
     font-style: italic;
     text-align: center;
 }
 
+#introleft {
+    float: left;
+    border: solid 1px;
+    width: 30%;
+    display: inline-flex;
+}
+
+#introright {
+    float: right;
+    border: solid 1px;
+    width: 30%;
+    display: inline-flex;
+}
+
 /* style portrait of me in "Home" */
 
-#me {
-    height: 30em;
-    width: 25em;
+#photocenter {
+    display: inline-flex;
+    margin: 0 auto;
+    width: 40%;
 }
 
 /* style social media logos in footer */
